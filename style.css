@@ -1,15 +1,79 @@
- .testo1 {
+*{
+   padding:0;
+   margin: 0;
+}
+
+
+
+span {
+    color: rgb(0, 157, 255);
+}
+
+h1 {
+    padding: 2px;
+}
+/* prove varie 
+header {
+    background-color: rgb(33,237,213) ;
+    height: 100px;
+}
+*/
+
+header {
+    
+    background-color: rgba(0, 238, 255, 0.904);
+    background-image: url("./img/pattern.png");
+    background-repeat: repeat-x;
+    background-size:10%;
+    
+    
+}
+
+.logo {
+ width: 200px;
+}
+
+
+/* prove varie
+.img-header {
+    height: 50px;
+    background-color: rgb(144, 215, 243);
+    background-image: url("./img/pattern.png");
+}
+*/
+
+ul{
+    padding-left: 17px;
+}
+
+table {
+    margin-left: 2px;
+    border-collapse: collapse;
+    
+}
+
+.color1 {
+    background-color: aqua;
+}
+
+.color2 {
+    background-color: aquamarine;
+}
+    
+
+
+.text1 {
+    padding: 2px;
     color: gray;
 }
 
 .immagine { 
-    position: relative;    
+    position: relative;  
     width: 100%; 
  }
  h4 { 
     position: absolute;
     color: #eee; 
-    font: bold 22px Georgia; 
     top: 1px;
     left: 10px; 
     width: 100%; 
