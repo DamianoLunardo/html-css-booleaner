@@ -1,0 +1,16 @@
+ .testo1 {
+    color: gray;
+}
+
+.immagine { 
+    position: relative;    
+    width: 100%; 
+ }
+ h4 { 
+    position: absolute;
+    color: #eee; 
+    font: bold 22px Georgia; 
+    top: 1px;
+    left: 10px; 
+    width: 100%; 
+ }
